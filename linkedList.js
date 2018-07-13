@@ -1,7 +1,8 @@
 function LinkedList() {
-  
+  this.head = null;
+  this.tail = null;
 }
 
-function Node() {
-  
+function Node(value, next, prev) {
+  this.value = value;  
 }
