@@ -1,1 +1,7 @@
+function LinkedList() {
+  
+}
 
+function Node() {
+  
+}
