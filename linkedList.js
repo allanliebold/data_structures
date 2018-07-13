@@ -20,7 +20,7 @@ LinkedList.prototype.addToHead = function(value) {
 };
 
 LinkedList.prototype.addToTail = function(value) {
-  
+  var newNode = new Node(value);
 };
 
 
