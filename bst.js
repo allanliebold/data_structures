@@ -5,7 +5,11 @@ function BST(value) {
 }
 
 BST.prototype.insert = function(value) {
-  
+  if (value <= this.value) {
+    
+  } else if (value > this.value) {
+    
+  }
 };
 
 var bst = new BST(50);
