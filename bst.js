@@ -22,3 +22,4 @@ BST.prototype.insert = function(value) {
 };
 
 var bst = new BST(50);
+bst.insert(30);
