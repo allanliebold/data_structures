@@ -3,3 +3,5 @@ function BST(value) {
   this.left = null;
   this.right = null;
 }
+
+var bst = new BST(50);
