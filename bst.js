@@ -4,4 +4,8 @@ function BST(value) {
   this.right = null;
 }
 
+BST.prototype.insert = function(value) {
+  
+};
+
 var bst = new BST(50);
