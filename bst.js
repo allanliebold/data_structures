@@ -22,7 +22,13 @@ BST.prototype.insert = function(value) {
 };
 
 BST.prototype.contains = function(value) {
-  
+  if (value === this.value) {
+    return true; 
+  } else if (value < this.value) {
+     
+  } else if (value > this.value) {
+    
+  }
 };
 
 var bst = new BST(50);
