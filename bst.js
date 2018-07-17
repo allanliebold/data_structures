@@ -25,3 +25,5 @@ var bst = new BST(50);
 bst.insert(30);
 bst.insert(55);
 bst.insert(100);
+
+console.log(bst);
