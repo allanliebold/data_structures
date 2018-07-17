@@ -27,3 +27,4 @@ bst.insert(55);
 bst.insert(100);
 
 console.log(bst.left); // { value: 30, left: null, right: null }
+console.log(bst.right); // { value: 50, left: null, right: { value: 100, left: null, right: null } }
