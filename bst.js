@@ -26,4 +26,4 @@ bst.insert(30);
 bst.insert(55);
 bst.insert(100);
 
-console.log(bst);
+console.log(bst.left); // { value: 30, left: null, right: null }
