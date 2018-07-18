@@ -56,6 +56,8 @@ BST.prototype.DFT = function(iteratorFunc) {
   if (this.left) {
    this.left.depthFirstTraversal(iteratorFunc); 
   }
-  
   iteratorFunc(this.value);
+  if (this.right) {
+    
+  }
 };
