@@ -55,4 +55,5 @@ bst.contains(100); // true
 BST.prototype.DFT = function(iteratorFunc) {
   iteratorFunc(this.left.value);
   iteratorFunc(this.value);
+  iteratorFunc(this.right.value);
 };
