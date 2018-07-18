@@ -52,4 +52,6 @@ bst.contains(29); // false
 bst.contains(100); // true
 
 // Depth First Traversal
-
+BST.prototype.DFT = function(iteratorFunc) {
+  
+};
