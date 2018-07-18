@@ -50,3 +50,6 @@ console.log(bst.right); // { value: 50, left: null, right: { value: 100, left: n
 bst.contains(30); // true
 bst.contains(29); // false
 bst.contains(100); // true
+
+// Depth First Traversal
+
