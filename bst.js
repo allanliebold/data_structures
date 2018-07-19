@@ -53,11 +53,7 @@ bst.contains(100); // true
 
 // Depth First Traversal
 BST.prototype.DFT = function(iteratorFunc) {
-  if (this.left) {
-   this.left.depthFirstTraversal(iteratorFunc); 
-  }
+  if (this.left) this.left.depthFirstTraversal(iteratorFunc); 
   iteratorFunc(this.value);
-  if (this.right) {
-    this.right.depthFirstTraversal(iteratorFunc);
-  }
+  if (this.right) this.right.depthFirstTraversal(iteratorFunc);
 };
