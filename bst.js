@@ -61,3 +61,6 @@ BST.prototype.DFT = function(iteratorFunc) {
 function log(value) {
   console.log(value); 
 }
+
+var testBst = new BST(10);
+
