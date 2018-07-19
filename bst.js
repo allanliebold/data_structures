@@ -71,4 +71,6 @@ testBst.insert(20);
 bst.DFT(log); // 3, 20, 5, 15, 10 
 
 // Refactor
-
+BST.prototype.DFT = function(iteratorFunc, order) {
+  
+}
