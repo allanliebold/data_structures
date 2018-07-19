@@ -65,3 +65,6 @@ function log(value) {
 var testBst = new BST(10);
 testBst.insert(5);
 testBst.insert(15);
+testBst.insert(3);
+testBst.insert(20);
+
