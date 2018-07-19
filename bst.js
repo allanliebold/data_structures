@@ -68,3 +68,6 @@ testBst.insert(15);
 testBst.insert(3);
 testBst.insert(20);
 
+bst.DFT(log); // 3, 20, 5, 15, 10 
+
+
