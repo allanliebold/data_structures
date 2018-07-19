@@ -58,6 +58,6 @@ BST.prototype.DFT = function(iteratorFunc) {
   }
   iteratorFunc(this.value);
   if (this.right) {
-    
+    this.right.depthFirstTraversal(iteratorFunc);
   }
 };
