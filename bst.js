@@ -69,7 +69,7 @@ testBst.insert(3);
 testBst.insert(20);
 testBst.insert(4);
 
-bst.DFT(log); // 3, 20, 5, 15, 10 
+bst.DFT(log); // 4, 3, 20, 5, 15, 10 
 
 // In Order Traversal
 
