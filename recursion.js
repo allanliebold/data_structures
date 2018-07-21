@@ -1,10 +1,9 @@
 // Recursion example
 function factorial(num) {
-  if (num === 1) {
+  if (num === 1) 
     return num;
-  } else {
+  else 
     return num * factorial(num - 1);
-  }
 }
 
 // Refactor: return num === 1 ? num : num * factorial(num - 1); 
