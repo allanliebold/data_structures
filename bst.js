@@ -59,6 +59,10 @@ BST.prototype.DFT = function(iteratorFunc, order) {
   if (order === 'post-order') iteratorFunc(this.value);
 };
 
+// BFT - Breadth First Traversal
+
+
+
 function log(value) {
   console.log(value); 
 }
