@@ -61,7 +61,9 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc, order) {
 
 // BFT - Breadth First Traversal
 
-BST.prototype.bread
+BST.prototype.breadthFirstTraversal = function(iteratorFunc) {
+  
+};
 
 
 function log(value) {
