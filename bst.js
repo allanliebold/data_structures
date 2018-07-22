@@ -56,6 +56,7 @@ BST.prototype.DFT = function(iteratorFunc, order) {
   if (this.left) this.left.depthFirstTraversal(iteratorFunc); 
   if (order === 'in-order') iteratorFunc(this.value);
   if (this.right) this.right.depthFirstTraversal(iteratorFunc);
+  if (order === 'post-order') iteratorFunc(this.value);
 };
 
 function log(value) {
