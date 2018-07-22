@@ -38,18 +38,6 @@ BST.prototype.contains = function(value) {
   }
 };
 
-var bst = new BST(50);
-bst.insert(30);
-bst.insert(55);
-bst.insert(100);
-
-console.log(bst.left); // { value: 30, left: null, right: null }
-console.log(bst.right); // { value: 50, left: null, right: { value: 100, left: null, right: null } }
-
-bst.contains(30); // true
-bst.contains(29); // false
-bst.contains(100); // true
-
 // DFT - Depth First Traversal
 BST.prototype.depthFirstTraversal = function(iteratorFunc, order) {
   if (order === 'pre-order') iteratorFunc(this.value);
