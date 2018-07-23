@@ -59,7 +59,7 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc) {
 };
 
 function log(value) {
-  console.log(value); 
+  console.log(node.value); 
 }
 
 var testBst = new BST(10);
