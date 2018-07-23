@@ -75,7 +75,7 @@ function log(node) {
   console.log(node.value); 
 }
 
-var testBst = new BST(10);
+var bst = new BST(10);
 bst.insert(5);
 testBst.insert(15);
 testBst.insert(3);
