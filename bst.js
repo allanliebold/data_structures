@@ -70,6 +70,7 @@ BST.prototype.getMaxVal = function() {
   else return this.value;
 }
 
+// Log Node Function
 function log(node) {
   console.log(node.value); 
 }
