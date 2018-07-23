@@ -48,7 +48,6 @@ BST.prototype.depthFirstTraversal = function(iteratorFunc, order) {
 };
 
 // BFT - Breadth First Traversal
-
 BST.prototype.breadthFirstTraversal = function(iteratorFunc) {
   var queue = [this];
   while (queue.length) {
