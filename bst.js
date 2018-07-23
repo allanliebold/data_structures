@@ -62,6 +62,10 @@ BST.prototype.getMinVal = function() {
   
 }
 
+BST.prototype.getMaxVal = function() {
+  
+}
+
 function log(node) {
   console.log(node.value); 
 }
