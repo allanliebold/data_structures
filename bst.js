@@ -72,3 +72,4 @@ testBst.DFT(log); // 4, 3, 20, 5, 15, 10
 
 bst.depthFirstTraversal(log, 'pre-order');
 bst.depthFirstTraversal(log, 'post-order');
+bst.breadthFirstTraversal(log);
