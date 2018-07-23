@@ -80,8 +80,8 @@ bst.insert(5);
 bst.insert(15);
 bst.insert(3);
 bst.insert(20);
-testBst.insert(4);
-testBst.DFT(log); // 4, 3, 20, 5, 15, 10 
+bst.insert(4);
+bst.DFT(log); // 4, 3, 20, 5, 15, 10 
 
 bst.depthFirstTraversal(log, 'pre-order');
 bst.depthFirstTraversal(log, 'post-order');
