@@ -77,9 +77,9 @@ function log(node) {
 
 var bst = new BST(10);
 bst.insert(5);
-testBst.insert(15);
-testBst.insert(3);
-testBst.insert(20);
+bst.insert(15);
+bst.insert(3);
+bst.insert(20);
 testBst.insert(4);
 testBst.DFT(log); // 4, 3, 20, 5, 15, 10 
 
