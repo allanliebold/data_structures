@@ -88,4 +88,4 @@ bst.depthFirstTraversal(log, 'post-order');
 bst.breadthFirstTraversal(log);
 
 console.log('Min: ', bst.getMinVal()); // 3
-console.log('Max: ', bst.getMaxVal());
+console.log('Max: ', bst.getMaxVal()); // 20
