@@ -64,6 +64,7 @@ BST.prototype.getMinVal = function() {
   else return this.value;
 }
 
+// Get Maximum Value
 BST.prototype.getMaxVal = function() {
   if (this.right) return this.right.getMaxVal();
   else return this.value;
