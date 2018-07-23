@@ -58,6 +58,10 @@ BST.prototype.breadthFirstTraversal = function(iteratorFunc) {
   }
 };
 
+BST.prototype.getMinVal = function() {
+  
+}
+
 function log(node) {
   console.log(node.value); 
 }
