@@ -76,7 +76,7 @@ function log(node) {
 }
 
 var testBst = new BST(10);
-testBst.insert(5);
+bst.insert(5);
 testBst.insert(15);
 testBst.insert(3);
 testBst.insert(20);
