@@ -16,6 +16,8 @@ HashTable.prototype.hash = function(key) {
   for (var i = 0; i < key.length; i++) {
     total += key.charCodeAt(i);
   }
+  var bucket = total % this.numBuckets;
+  return bucket;
 };
 
 var myHT = new HashTable(30);
