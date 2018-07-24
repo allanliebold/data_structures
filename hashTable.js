@@ -20,7 +20,7 @@ HashTable.prototype.hash = function(key) {
   return bucket;
 };
 
-HashTable.prototype.insert = function() {
+HashTable.prototype.insert = function(key, value) {
   
 };
 
