@@ -6,3 +6,4 @@ function HashTable(size) {
 }
 
 var myHT = new HashTable(30);
+console.log(myHT);
