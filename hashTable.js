@@ -21,7 +21,7 @@ HashTable.prototype.hash = function(key) {
 };
 
 HashTable.prototype.insert = function(key, value) {
-  
+  var index = this.hash(key);
 };
 
 var myHT = new HashTable(30);
