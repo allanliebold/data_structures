@@ -11,5 +11,9 @@ function HashNode(key, value, next) {
   this.next = next || null;
 }
 
+HashTable.prototype.hash = function(key) {
+  
+};
+
 var myHT = new HashTable(30);
 console.log(myHT);
