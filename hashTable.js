@@ -20,5 +20,9 @@ HashTable.prototype.hash = function(key) {
   return bucket;
 };
 
+HashTable.prototype.insert = function() {
+  
+};
+
 var myHT = new HashTable(30);
 console.log(myHT);
