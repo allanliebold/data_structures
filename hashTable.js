@@ -6,7 +6,7 @@ function HashTable(size) {
 }
 
 function HashNode(key, value, next) {
-  
+  this.key = key;
 }
 
 var myHT = new HashTable(30);
