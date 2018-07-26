@@ -33,3 +33,5 @@ HashTable.prototype.insert = function(key, value) {
 
 var myHT = new HashTable(30);
 console.log(myHT); // 
+
+myHT.insert();
