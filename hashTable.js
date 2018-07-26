@@ -30,6 +30,7 @@ HashTable.prototype.insert = function(key, value) {
         currentNode.next.value = value;
         return;
       }
+      currentNode = currentNode.next;
     }
     currentNode.next = new HashNode(key, value);
   }
