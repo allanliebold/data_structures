@@ -17,9 +17,8 @@ LinkedList.prototype.addToHead = function(value) {
   } else {
     this.tail = newNode;
   }
+  // Refactor this.head != null ? this.head.prev = newNoade : this.tail = newNode
   this.head = newNode;
-  
-  // Refactor this.head != null ? this.head.prev = newNoade : this.tail = newNode;
 };
 
 LinkedList.prototype.addToTail = function(value) {
