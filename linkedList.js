@@ -1,4 +1,4 @@
-// Linked List (Double Linked)
+// Linked List (Doubly Linked)
 function LinkedList() {
   this.head = null;
   this.tail = null;
