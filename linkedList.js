@@ -19,7 +19,7 @@ LinkedList.prototype.addToHead = function(value) {
   }
   this.head = newNode;
   
-  // Refactor 
+  // Refactor this.head != null ? this.head.prev = newNoade : this.tail = newNode;
 };
 
 LinkedList.prototype.addToTail = function(value) {
