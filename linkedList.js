@@ -18,6 +18,8 @@ LinkedList.prototype.addToHead = function(value) {
     this.tail = newNode;
   }
   this.head = newNode;
+  
+  // Refactor 
 };
 
 LinkedList.prototype.addToTail = function(value) {
