@@ -5,6 +5,7 @@ function BST(value) {
   this.right = null;
 }
 
+// Insert method
 BST.prototype.insert = function(value) {
   if (value <= this.value) {
     if (!this.left) {
