@@ -22,7 +22,7 @@ BST.prototype.insert = function(value) {
   }
 };
 
-// Contains method
+// Contains method - Checks the tree and returns true if a specified value is found
 BST.prototype.contains = function(value) {
   if (value === this.value) {
     return true; 
