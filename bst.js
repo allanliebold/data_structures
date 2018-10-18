@@ -22,6 +22,7 @@ BST.prototype.insert = function(value) {
   }
 };
 
+// Contains method
 BST.prototype.contains = function(value) {
   if (value === this.value) {
     return true; 
