@@ -84,6 +84,7 @@ bst.insert(15);
 bst.insert(3);
 bst.insert(20);
 bst.insert(4);
+bst.insert(2);
 bst.DFT(log); // 4, 3, 20, 5, 15, 10 
 
 bst.depthFirstTraversal(log, 'pre-order');
