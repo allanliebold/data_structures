@@ -5,7 +5,7 @@ function BST(value) {
   this.right = null;
 }
 
-// Insert method
+// Insert method - Adds new node to tree
 BST.prototype.insert = function(value) {
   if (value <= this.value) {
     if (!this.left) {
