@@ -11,6 +11,7 @@ function Node(value, next, prev) {
   this.prev = prev;
 }
 
+// Add to head
 LinkedList.prototype.addToHead = function(value) {
   var newNode = new Node(value, this.head, null);
   if (this.head) {
