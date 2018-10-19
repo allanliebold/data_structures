@@ -23,6 +23,7 @@ LinkedList.prototype.addToHead = function(value) {
   this.head = newNode;
 };
 
+// Add to tail
 LinkedList.prototype.addToTail = function(value) {
   var newNode = new Node(value, null, this.tail);
 };
