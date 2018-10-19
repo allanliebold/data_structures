@@ -4,6 +4,7 @@ function LinkedList() {
   this.tail = null;
 }
 
+// Node
 function Node(value, next, prev) {
   this.value = value;  
   this.next = next;
